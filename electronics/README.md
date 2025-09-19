@@ -7,4 +7,4 @@
         - [Bit](./Nand2Tetris/Bit.md)
 - Circuits
     - [Template](./circuits/template.md)
-    - [Simple LED circuit](./circuits/Simple_LED.md)
+    - [Simple LED circuit](./circuits/simple_LED.md)
