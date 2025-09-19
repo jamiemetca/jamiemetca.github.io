@@ -1,6 +1,4 @@
-# Notes
-
-The home of all the notes
+# Catagories
 
 - [C](./C)
 - [Electronics](./electronics)

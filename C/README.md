@@ -1,6 +1,6 @@
 # C
 
-Notes related to the developing in C
+[Back](../README.md)
 
 - Pointers
     - [Pointers to an array](./Pointers.md)

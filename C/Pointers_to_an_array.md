@@ -1,5 +1,7 @@
 # Pointers to an array (19/09/2025)
 
+[Back](./README.md)
+
 ```c
 int (*grid)[26] = (int(*)[26]) calloc(rows * 26, sizeof(int));
 ```
