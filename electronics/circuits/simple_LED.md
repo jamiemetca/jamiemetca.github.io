@@ -1,6 +1,6 @@
 # Simple LED
 
-[Back](../README.md]
+[Back](../README.md)
 
  * Date:20/09/2025
  * Objective: This simple circuit will provide a hands on project with which to learn and better understand voltage, current and basic components (batteries, LEDs and resistors)
