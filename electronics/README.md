@@ -2,4 +2,6 @@
 
 [Home](../README.md)
 
-Electronics root
+- Nand2Tetris
+    - Project 3
+        - [Bit](./Nand2Tetris/Bit.md) 
