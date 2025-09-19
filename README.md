@@ -2,4 +2,5 @@
 
 The home of all the notes
 
-[Electronics](./electronics)
+- [C](./C)
+- [Electronics](./electronics)
