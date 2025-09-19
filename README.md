@@ -1,4 +1,4 @@
-# Catagories
+# Home
 
 - [C](./C)
 - [Electronics](./electronics)
