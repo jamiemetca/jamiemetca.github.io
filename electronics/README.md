@@ -6,4 +6,5 @@
     - Project 3
         - [Bit](./Nand2Tetris/Bit.md)
 - Circuits
-    - [Simple LED circuit](./circuits/Simple_LED_circuit.md)
+    - [Template](./circuits/template.md)
+    - [Simple LED circuit](./circuits/Simple_LED.md)
