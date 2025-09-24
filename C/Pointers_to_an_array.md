@@ -1,4 +1,6 @@
-# Pointers to an array (19/09/2025)
+2025/09/19
+
+# Pointers to an array
 
 [Back](./README.md)
 
