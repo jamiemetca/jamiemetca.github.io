@@ -4,5 +4,12 @@
 
 [Root](../README.md)
 
-- [Circuit template](./Circuits/template.md)
-- [Simple LED](./Circuits/simple_LED.md)
+- Components
+    - [Diodes](./Components/Diodes.md)
+    - [LEDs](./Components/LEDs.md)
+    - [Semiconductors](./Components/Semiconductors.md)
+- Circuits
+    - [Simple LED](./Circuits/simple_LED.md)
+    - [template](./Circuits/template.md)
+- Electrical principles
+    - [Forward voltage](./Electrical_principles/Forward_voltage.md)
