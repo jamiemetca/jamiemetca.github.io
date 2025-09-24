@@ -2,7 +2,7 @@
 
 # Tech-Lancaster
 
-[Home](../README.md)
+[Root](../README.md)
 
 ## Modules
 - [TL105: Health & Safety intro](./modules/TL105.md)

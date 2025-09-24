@@ -55,6 +55,6 @@ int main() {
 > [!NOTE]
 > 
 > Read about why the minimum value is set like this:
-> [here](./2s_complement_and_overflow.md)
+> [here](./Negative_numbers.md)
 >
 > long long signed_min = -9223372036854775807LL - 1;

@@ -2,9 +2,10 @@
 
 # C
 
-[Home](../README.md)
+[Root](../README.md)
 
 - Pointers
     - [Pointers to an array](./Pointers_to_an_array.md)
 - Types
     - [Long long (Signed and unsigned)](./Long_long.md)
+- [Negative numbers](Negative_numbers.md)
