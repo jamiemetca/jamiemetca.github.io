@@ -4,12 +4,35 @@
 
 [Back](README.md)
 
-# Todo: finish notes
-Write notes on what is 2s complement. What it's used for.
-e.g.
-- Allows subtraction by addition.
-- Integer literal limitations (tidy up following notes for this)
+## 2s complement
+2s complement is used for subtraction in binary.
+0110 - 0011 (6 - 3)
+Step 1 bit flip the subtractor
+This is 1s complement
+1100
+Then add 1, 2s complement.
+1101
+Lastly add them
+0110
+1101+
+----
+10011
+This is 4 bit math so ignore the carry and it becomes.
+0011 (or 3)
 
+## Range
+Signed by numbers are said to have a range of from -(2<sup>n-1</sup> - 1) to 2<sup>n-1</sup> - 1
+where n is the total number of bits
+so in our example.
+-(2<sup>4-1</sup>-1) = -(2^4-1) = -8
+2<sup>4-1</sup> - 1  = 2^4-1 -1 =  7
+
+## Signed numbers
+When a data type says it's signed, what that means is the most significant bit (msb or rightmost bit) is used to denote the numbers negative state. 1 is negative, 0 is positive.
+The negative number is also 2s complement of the positive number.
+e.g. for 4 bit signed numbers
+1001 is -7
+0111 is 7
 
 ## Below demonstates why declaring the maximum negative interger literal causes an overflow
 To demonstrate why `-8` is not a valid literal and why subtracting 1 is a safer approach, let's use a **4-bit signed integer** as an example.
