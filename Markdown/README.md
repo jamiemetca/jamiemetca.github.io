@@ -22,3 +22,17 @@ There are 5 alert styles
 
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
+
+## Math syntax
+- Wrap text in double dollar symbols \$\$ X + Y = Z \$\$
+$$ X + Y = Z $$
+- Wrap text in single dollar symbols \$ X + Y = Z \$ for in-line math. Like this $X + Y = Z$
+- For subscript
+    - X_y or X_{yz} = $X_y$ or $X_{yz}$
+- For superscript
+    - X^y or X^yz = $X^y$ or $X^{yz}$
+
+
+## Math symbols
+- \approx = $\approx$
+- \times = $\times$
