@@ -1,5 +1,4 @@
-created: 2025/09/20
-(last updated: 2025/09/24)
+2025/09/20 (last update 29/09/2025)
 
 # Simple LED circuit
 

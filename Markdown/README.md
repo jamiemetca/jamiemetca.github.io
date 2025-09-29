@@ -1,4 +1,4 @@
-2025/09/24
+2025/09/24 (last update 29/09/2025)
 
 # Markdown
 
@@ -31,6 +31,8 @@ $$ X + Y = Z $$
     - X_y or X_{yz} = $X_y$ or $X_{yz}$
 - For superscript
     - X^y or X^yz = $X^y$ or $X^{yz}$
+- Divide bar
+$$ A {B^n + C^n \over D} $$
 
 
 ## Math symbols

@@ -1,5 +1,6 @@
+29/09/2025 (last update 29/09/2025)
+
 # Machine word
-29/09/2025
 
 A "machine word" is the unit of data that can be moved between storage and processor of a computer.
 

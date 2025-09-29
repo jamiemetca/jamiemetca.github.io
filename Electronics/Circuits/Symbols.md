@@ -1,6 +1,6 @@
-# Symbols
+29/09/2025 (last update 29/09/2025)
 
-29/09/2025
+# Symbols
 
 Anode = positive
 Cathode = negative
