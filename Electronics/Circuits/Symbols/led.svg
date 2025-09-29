@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Circuit Diagram, cdlibrary.dll 1.0.0.0 -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+	<line x1="290" y1="240" x2="350" y2="240" style="stroke:rgb(0,0,0);stroke-linecap:square;stroke-width:2" />
+	<path d="M 327,240 M 327,232 L 327,248 M 327,240 L 312,248 L 312,232 L 327,240" style="fill-opacity:0;fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-linecap:square;stroke-width:2" />
+	<path d="M 325,240 M 323,229 L 331,221 M 332,220 L 328,222 L 330,224 L 332,220 L 328,222" style="fill-opacity:0;fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-linecap:square;stroke-width:2" />
+	<path d="M 325,240 M 329,236 L 337,228 M 338,227 L 334,229 L 336,231 L 338,227 L 334,229" style="fill-opacity:0;fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-linecap:square;stroke-width:2" />
+</svg>

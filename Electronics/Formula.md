@@ -28,6 +28,13 @@ $$ R = V / I $$
 $$ R = V^2 / P $$
 $$ R = P / I^2 $$
 
+### Calculating resistor required for LED circuit
+$$ R = {V_s - V_f \over I_f} = {9V - 1.2V \over 0.02A} = {7.8v \over 0.02A} = {390Ω} $$
+- R = resistance
+- $V_s$ The Supply voltage (battery)
+- $V_f$ The LEDs forward voltage
+- $If$ The LEDs forward current (operating current)
+
 ## Voltage (V)
 $$ V = I \times R $$
 $$ V = \sqrt{P \times R} $$

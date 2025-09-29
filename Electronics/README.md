@@ -9,6 +9,7 @@
     - [LEDs](./Components/LEDs.md)
     - [Semiconductors](./Components/Semiconductors.md)
 - Circuits
+    - [Symbols](./Circuits/Symbols.md)
     - [Simple LED](./Circuits/simple_LED.md)
     - [template](./Circuits/template.md)
 - Electrical principles

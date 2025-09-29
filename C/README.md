@@ -6,6 +6,7 @@
 
 - Pointers
     - [Pointers to an array](./Pointers_to_an_array.md)
+- [Machine word](./Machine_word.md)
 - Types
     - [Long long (Signed and unsigned)](./Long_long.md)
 - [Negative numbers](Negative_numbers.md)

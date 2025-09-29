@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Circuit Diagram, cdlibrary.dll 4.0.0.0 -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+	<line x1="290" y1="246" x2="311" y2="246" style="stroke:rgb(0,0,0);stroke-linecap:square;stroke-width:2" />
+	<line x1="311" y1="236" x2="311" y2="256" style="stroke:rgb(0,0,0);stroke-linecap:square;stroke-width:2" />
+	<line x1="317" y1="241" x2="317" y2="251" style="stroke:rgb(0,0,0);stroke-linecap:square;stroke-width:2" />
+	<line x1="323" y1="236" x2="323" y2="256" style="stroke:rgb(0,0,0);stroke-linecap:square;stroke-width:2" />
+	<line x1="329" y1="241" x2="329" y2="251" style="stroke:rgb(0,0,0);stroke-linecap:square;stroke-width:2" />
+	<line x1="329" y1="246" x2="350" y2="246" style="stroke:rgb(0,0,0);stroke-linecap:square;stroke-width:2" />
+	<text x="320" y="234" style="font-family:Arial;font-size:12px;text-anchor:middle" dominant-baseline="baseline" transform="rotate(0, 320, 234)">+5V</text>
+</svg>
