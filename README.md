@@ -12,6 +12,7 @@ Topics
 - Linux
     - [Change OS](./Linux/Change_OS.md)
     - [Write and run C](./Linux/Run_C_Program_On_Ubuntu.md)
+- [Git](./Git/Git.md)
 - [Markdown](./Markdown/README.md)
 - [Nand2Tetris](./Nand2Tetris/README.md)
 - [Tech Lancaster](./Tech_Lancaster/README.md)
