@@ -7,6 +7,8 @@ A repo of notes
 Topics
 ---
 - [C](./C/README.md)
+    - [Hello world!](./C/hello-world.md)
+    - [Toolchain setup](./C/ToolchainSetup.md)
 - [Electronics](./Electronics/README.md)
     - Notes on circuits, component and other useful information
 - Linux
@@ -16,8 +18,8 @@ Topics
 - [Markdown](./Markdown/README.md)
 - [Nand2Tetris](./Nand2Tetris/README.md)
 - [Tech Lancaster](./Tech_Lancaster/README.md)
-    - Couse notes and other information
-- [Vim](./Vim/Vim.md)
+    - Course notes and other information
+- [Vim](./Vim)
 
 - [Todo](Todo.md)
     - Notes that require more work
