@@ -2,6 +2,10 @@
 
 # Vim
 
+## Update VIMRC
+:e $MYVIMRC - Will open your vimrc
+:so ~/.vimrc - will source and apply the changes
+
 ## Explore mode
 Open vim in Explorer mode
 ```vim
