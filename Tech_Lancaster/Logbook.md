@@ -2,6 +2,8 @@
 
 # Logbook
 
+[Home](/)
+
 ## TL1P1
 
 ### Task 1
@@ -38,8 +40,21 @@
 
 ### Task 3
     - Build an LED power indicator circuit
+
+<img src="/Images/Single_LED.png">
+
     - Add another LED in parallel
-        - Ensure the correct resistors are being used
+
+<img src="/Images/Two_LEDs.png">
+
+    - Ensure the correct resistors are being used
+        
+I found the voltage drop of an LED was around 1.8V and 2.2V for a red and green LED respectively.
+
+$$ Red LED: {9V - 1.8V \over 0.02A} = {7.2V \over 0.02A} = {360Ω} $$
+$$ Green LED: {9V - 2.2V \over 0.02A} = {6.8v \over 0.02A} = {340Ω} $$
+
+We were advised to use the next step up in available resistors. Which in our kit is 470Ω.
 
 ### Task 4
     - Measure voltages across the LEDs and resistors

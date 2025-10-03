@@ -10,6 +10,9 @@
 - R = resistance (ohms)
 - V = voltage (volts)
 
+## Ohm's law
+$$ V = I \times R | I = V / R | R = V / I $$
+
 ## Current (I)
 $$ I = V / R $$
 $$ I = P / V $$
