@@ -41,11 +41,11 @@
 ### Task 3
     - Build an LED power indicator circuit
 
-<img src="/Images/Single_LED.png">
+<img src="/Images/Single_LED_Circuit.png">
 
     - Add another LED in parallel
 
-<img src="/Images/Two_LEDs.png">
+<img src="/Images/Two_LEDs_Circuit.png">
 
     - Ensure the correct resistors are being used
         
