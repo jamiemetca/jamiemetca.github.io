@@ -111,7 +111,7 @@ $$ {V_R /over R_R} = { 7.13V /over 470Ω /times 2 } = {7.13V /over 940Ω} = 0.00
 
 <img src="/Images/Single_LED_LDR_My_Circuit.jpg">
 
-<video controls>
+<video height="250" controls>
     <source src="/Images/Single_LED_LDR_My_Circuit.TS.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video> 
