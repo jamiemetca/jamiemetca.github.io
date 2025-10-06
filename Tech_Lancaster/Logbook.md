@@ -46,12 +46,12 @@
     - Build an LED power indicator circuit
 
 <img src="/Images/Single_LED_Circuit.png">
-<img src="/Images/Single_LED_My_Circuit.png">
+<img src="/Images/Single_LED_My_Circuit.jpg">
 
     - Add another LED in parallel
 
 <img src="/Images/Two_LEDs_Circuit.png">
-<img src="/Images/Two_LEDs_My_Circuit.png">
+<img src="/Images/Two_LEDs_My_Circuit.jpg">
 
     - Ensure the correct resistors are being used
         
@@ -64,6 +64,8 @@ We were advised to use the next step up in available resistors. Which in our kit
 
 ### Task 4
 #### Measure voltages across the LEDs and resistors
+
+<img src="/Images/Two_LEDs_My_Circuit.jpg">
 
 The component voltages are;
 - Battery: 9.27V
@@ -92,6 +94,8 @@ The measured value of 14.58mA (milli amps) is almost exactly what I expected.
 
 The supplied 1kΩ resistor is actullay 330Ω so I'll calculate 2 470Ω resistors in series.
 
+<img src="/Images/Single_LED_Two_470_resistors_My_Circuit.jpg">
+
 $$ {V_R /over R_R} = { 7.13V /over 470Ω /times 2 } = {7.13V /over 940Ω} = 0.0076A (7.6mA) = { 0.01423A (14.23mA)} $$
 
 The measured value of 7.64mA is almost exactly as expected.
@@ -101,6 +105,13 @@ The measured value of 7.64mA is almost exactly as expected.
 - Replace the resistor with the LDR
 - Measure the resistance of the LDR (light dependant resistor).
 - Record the maximum and minimum resistances (vary the light level)?
+
+<img src="/Images/Single_LED_LDR_My_Circuit.jpg">
+
+ <video width="320" height="240" controls>
+  <source src="/Images/Single_LED_LDR_My_Circuit.TS.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
 
 As light levels increase, the resistance decreases.
 #### No light (covered sensor)
