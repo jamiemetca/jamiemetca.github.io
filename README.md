@@ -37,5 +37,6 @@ Topics
 - [Tech Lancaster](./Tech_Lancaster/README.md)
     - [Acronyms](./Tech_Lancaster/Acronyms.md)
     - [Log book](./Tech_Lancaster/Logbook.md)
+- [Terminal](./Terminal)
 - [Vim](./Vim)
 - [Todo](Todo.md)
