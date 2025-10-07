@@ -2,11 +2,14 @@
 
 # C
 
-[Root](../README.md)
+[Root](/README.md)
 
-- Pointers
-    - [Pointers to an array](./Pointers_to_an_array.md)
+Notes on the C programming language
+
+- [Hello world!](./hello-world.md)
+- [Toolchain setup](./ToolchainSetup.md)
 - [Machine word](./Machine_word.md)
+- [Negative numbers](./Negative_numbers.md)
+- [Pointers to an array](./Pointers_to_an_array.md)
 - Types
     - [Long long (Signed and unsigned)](./Long_long.md)
-- [Negative numbers](Negative_numbers.md)
