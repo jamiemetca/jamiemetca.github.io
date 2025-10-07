@@ -145,4 +145,74 @@ Confirm the resistor ratings are correct.
 |-------|-------|-----------|
 
 # Week four 07/10/2025
+## Notes
 
+- Add frequency calculation to formula page.
+    - 1 second/ time (time for 1 wave cycle)  = frequency
+
+- PicoScope
+
+- 230V * 1.4(RMS value) = 320V
+
+- half-wave rectifier- AC -> DC
+
+- Diode
+    - current goes towards the silver stripe
+    - Voltage drop
+        - 0.71 - This number comes up alot
+        - The voltage lost across a diode
+        - It's a side-effect
+        - P-N junction - this drop is what consumes the power.
+
+- On Amazone (Ali-express ~ £3)
+    - buy a kit to build your own signal generator
+    - requires soldering
+    - 
+
+- Capacitors
+    - T = RC
+        - Add time to discharge calculation to formula page.
+    - Capacitance is how much charge is stored per volt.
+    - What is meant by a polarised capacitor?
+        - This means it can only be connected in one direction.
+        - What happens if it's connected the wrong way and why?
+    - Ripple voltage
+        - The capacitor can't charge quickly enough.
+        - This occurs when the power is drawn quickly enough between phases that the capacitor begins to discharge.
+    - Shark fin graph
+        - Multiple the time factor by 5 to get an idea of how long a capacitor will take to discharge.
+            - Will it take the same amout of time to charge?
+    - They are timing circuits
+        - Toasters
+        - Bathroom fans
+        - Car interior lights
+
+- Voltage
+    - What is considered low?
+    - Does it depend on the current?
+    - Can you SAFELY measure the resistance of you (the capacitor was discharging through his body)
+
+-  R-C network
+    - r= r per v
+    - c = c per volt
+T = RC
+
+- Transistor
+    - Why does the resistor on the base affect the brighnes of the LED
+
+- MOSFET
+    - The base is activated by voltage. No current needs to flow.
+    - They are also sensitive, and so can be damaged by static electricity.
+        - Be sure to use the ESD strap before handling.
+
+- TODO
+    - Review the tasks
+    - Write ups;
+        - Circuits covered
+            - Create schematics for all the circuits built.
+            - Upload images and video
+        - Components covered
+            - Update existing notes with additional notes
+            - Create notes for new components
+    - Investigate the dimming circuit further.
+        - What affect does changing each of the resistors have?
