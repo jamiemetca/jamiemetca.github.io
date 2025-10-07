@@ -28,7 +28,8 @@ Weeks one and two were meet and greet and had no lab work.
 - Arduino Uno
 - Battery snap
 - Breadboard
-- Capacitor (22uf - mircofarads and 22nf nanofarads) 
+- [Capacitor](../Electronics/Components/Capacitor.md)
+    - (22uf - mircofarads and 22nf nanofarads) 
 - DMM (digital multimeter)
 - [LED](../../Electronics/Components/LEDs.md)
 - [MOSFET (N channel)](../Electronics/Components/Mosfet.md)

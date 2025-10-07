@@ -6,14 +6,23 @@
 
 - [Acronyms](./Acronyms.md)
 - Components
+    - [555 timer](./Components/555_Timer.md)
+    - [Capacitors](./Components/Capacitors.md)
     - [Diodes](./Components/Diodes.md)
     - [LEDs](./Components/LEDs.md)
+    - [MOSFETs](./Components/Mosfet.md)
+    - [Potentiometer](./Components/Potentiometer.md)
+    - [Relay](./Components/Relay.md)
     - [Semiconductors](./Components/Semiconductors.md)
+    - [Switch](./Components/Switch.md)
+    - [Thermistor](./Components/Thermistor.md)
+    - [Transistor](./Components/Transistors.md)
 - Circuits
     - [Symbols](./Circuits/Symbols.md)
     - [Simple LED](./Circuits/simple_LED.md)
     - [template](./Circuits/template.md)
 - Electrical principles
+    - [Counter EMF](./Electrical_principles/Back_EMF.md)
     - [Forward voltage](./Electrical_principles/Forward_voltage.md)
 - [Formulas](Formula.md)
 - Question notes
