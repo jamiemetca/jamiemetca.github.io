@@ -1,12 +1,17 @@
-02/10/2025 (last updated 03/10/2025)
+02/10/202
 
 # Logbook
 
 [Home](/)
 
-## TL1P1 Notes
+# Week three 30/09/2025
+Weeks one and two were meet and greet and had no lab work.
+
 - Find a web based circuit simulator.
-    - Done: https://everycircuit.com/app
+    - everycircuit
+        - Looks really good but requires payment for any circuits that are not really basic (e.g. 1 LED, 1 resistor)
+    - tinkerCad
+        - Not as clean as every circuit but so far has remained free.
 
 ## Task 1
 ---
@@ -91,14 +96,14 @@ $$ (9.27V - 8.87V) + (9.27V - 8.93V) = .4V + .34V = 0.74V $$
 - Where R_R = Resistance of resistor
 #### Measure the current with the DMM on the 200mA range.
 
-<img src="/Images/Single_LED_Circuit.jpg" width="100%" >
+<img src="/Images/Single_LED_Circuit.png" width="100%" >
 <img src="/Images/Single_LED_My_Circuit.jpg" width="100%">
 $$ {V_R /over R_R} = { 6.69V /over 470Ω } = 0.01423A (14.23mA) $$
 - The measured value of 14.58mA (milli amps) is almost exactly what I expected.
 
 <img src="/Images/Two_LEDs_Circuit.png" width="100%" >
 <img src="/Images/Single_LED_Two_470_resistors_My_Circuit.jpg" width="100%" >
-- The supplied 1kΩ resistor is actullay 330Ω so I'll calculate 2 470Ω resistors in series.
+- The supplied 1kΩ resistor is actullay 330Ω so I'll calculate two 470Ω resistors in series.
 
 $$ {V_R /over R_R} = { 7.13V /over 470Ω /times 2 } = {7.13V /over 940Ω} = 0.0076A (7.6mA)  $$
 - The measured value of 7.64mA is almost exactly as expected.
@@ -136,4 +141,7 @@ Confirm the resistor ratings are correct.
 | 470   | 470   | 461       |
 | 22    | 10000 | 96000     |
 | 10    | 22000 | 21400     |
------------------------------
+|-------|-------|-----------|
+
+# Week four 07/10/2025
+
