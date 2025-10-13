@@ -4,5 +4,6 @@ plugins:
 
 title: jamiemetca
 description: Notes on everything
+markdown: kramdown
 kramdown:
   math_engine: mathjax

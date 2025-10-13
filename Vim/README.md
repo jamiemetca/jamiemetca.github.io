@@ -7,27 +7,30 @@
 :so ~/.vimrc - will source and apply the changes
 
 ## Explore mode
-Open vim in Explorer mode
+### Open vim in Explorer mode
 ```vim
 vim .
 ```
 
-Open explorer
+### Open explorer
+Adding ! to the end of the command opens explorer in the right window.
+
 ```vim
 :Ex
+:Ex!
 ```
 
-Open explorer by spliting the screen vertically
+### Open explorer by spliting the screen vertically
 ```vim
 :Vexplore
 ```
 
-Open explorer by spliting the screen horizontally
+### Open explorer by spliting the screen horizontally
 ```vim
 :Hexplore
 ```
 
-Explore commands
+### Explore commands
 d - creates a directory
 % - creates a file
 R - Rename file
