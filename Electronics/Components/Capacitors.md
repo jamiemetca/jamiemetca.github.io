@@ -6,6 +6,37 @@ Capacitors are used to store electrical charge.
 
 They charge and release energy mush more quickly than battieries.
 
+## Charging and discharging
+Capacitors lose current, potential difference and charge exponentially.
+
+---
+IMPORTANT
+---
+When measuring the discharge with a DMM, the DMM must be in parallel as the internal resistance (which is high when measuring voltage) will have a significant effect on the rate of discharge.
+---
+
+|---------------+-----------------------------|
+| Time constant | Percentage of max (voltage) |
+|:--------------+----------------------------:|
+| 0.0           | 100%                        |
+| 0.5           | 60.7%                       |
+| 0.7           | 49.7%                       |
+| 1.0           | 36.8%                       |
+| 2.0           | 13.5%                       |
+| 3.0           | 5.0%                        |
+| 4.0           | 1.8%                        |
+| 5.0           | 0.7%                        |
+|---------------+-----------------------------|
+
+The capacitor time constant can be found with the following formula 
+$$ T = RC $$
+Where;
+- T = Time constant
+- R = Resistance
+- C = Capacitance
+ 
+Confirm the capacitance via the capacitance measurement feature -|(- of my DMM.
+
 ## Uses
 - Power factor correction
 - Smoothing current peaks/troughs

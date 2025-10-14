@@ -56,3 +56,16 @@ gT - previous tab
 - Close terminal
     exit - marks the session as finished
     - Both :q and :close close the split
+
+## Digraphs
+Symbols which cannot be easily typed.
+
+To show a list of digraphs
+```vim
+:dig!
+```
+
+To enter a digraph.
+- While in insert mode.
+- Type ctrl-k
+- Followed by the two character code.

@@ -42,3 +42,9 @@ $$ R = {V_s - V_f \over I_f} = {9V - 1.2V \over 0.02A} = {7.8v \over 0.02A} = {3
 $$ V = I \times R $$
 $$ V = \sqrt{P \times R} $$
 $$ V = P / I $$
+
+## Time Constant (Capacitance)
+$$ T = RC $$
+T = Time
+R = Resistance
+C = Capacitance

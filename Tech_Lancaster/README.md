@@ -147,6 +147,7 @@ Confirm the resistor ratings are correct.
 # Week four 07/10/2025
 ## Notes
 
+### TODO
 - Add frequency calculation to formula page.
     - 1 second/ time (time for 1 wave cycle)  = frequency
 
@@ -216,3 +217,54 @@ T = RC
             - Create notes for new components
     - Investigate the dimming circuit further.
         - What affect does changing each of the resistors have?
+
+## Task- charge and capacitor (22uF)
+- Measure the voltage
+- Observe discharging
+- Comment on time taken to discharge
+
+Notes on capacitors [here](/Electronics/Components/Capacitors.md)
+
+$$ T = RC $$
+Where;
+- T = Time constant
+- R = Resistance
+- C = Capacitance
+ 
+I measured the following.
+- The capacitor has 23.2μF.
+- The resistance was 23.54kΩ.
+Convert to base units.
+$$ 23.2μF = 23.2 \times 10^{-6} = 0.0000232F $$
+$$ 23.54kΩ = 23.54 \times 10^{3} = 23,540Ω $$
+$$ T = R \times C = 23,540Ω \times 0.0000232F = 0.546 seconds $$
+
+Following the time constant table I'd expect 36.8% of max voltage after 0.546 seconds. (3.24V)
+
+This is not what I saw: It took 4 minutes and 21 seconds (261 seconds) to go from 9V to 3.24V (~36% of max).
+
+My error: I was measuring the discharge with the DMM in series which significantly increased the resistance of the circuit.
+
+I modified the circuit to measure the voltage in parallel and the discharge time dropped.
+After approximately 1 second, which is approximately 2 time constanct units, the voltage was about 1.2V which is very close to the expected 1.24V (2T = 13.5%)
+
+<img src="/Images/Charge_Discharge_And_Measure_Capacitor_Voltage_My_Circuit.jpg" width="100%" >
+
+## Task- Build and assess the Automatic night light circuit
+- Meaure the gain (hFE) of the transistor.
+
+
+- Measure the voltages in the circuit
+    - Transistor base voltage (between base and 0V) when on and off
+    - Transistor collector voltage (between collector and 0V) when on and off
+    - LED voltage when on and off
+    - Any other voltages to check
+
+[Write up](/Electronics/Circuits/Automatic_Night_Light.md)
+
+## 121 call
+Booked technical 121 for 1pm with Joe
+
+- Chip-tech - Advertised a roled for Embedded software engineeri.
+Salary- 50k-60k
+- Joe will enquire about the last practica week. Is it applicable
