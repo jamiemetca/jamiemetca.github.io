@@ -16,15 +16,18 @@ Where the resistance comes from doesn't matter. Adding a second resistor is the 
 
 Here are some simulation and real world measurements to demostrate this.
 
+|-------+-----------+---------------+-----------|
 | Loci  | Voltage   | Resistance    | Current   |
-|-------|-----------|---------------|-----------|
+|-------+-----------+---------------+-----------|
 | Sim   | 9V        | 10,000Ω       | 900μA     |
 | IRL   | 9.31V     | 9,750Ω        | 942μA     |
 | Sim   | 9V        | 20,000Ω       | 450μA     |
 | IRL   | 9.31V     | 19,040Ω       | 473μA     |
+|-------+-----------+---------------+-----------|
 
 ## Parallel circuits
 In parallel circuits, resistance calculations are different.
+
 | Loci  | Voltage   | Resistance    | Current   |
 |-------|-----------|---------------|-----------|
 | Sim   | 9V        | 5,000Ω        | 1.80mA    |
