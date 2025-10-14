@@ -261,10 +261,3 @@ After approximately 1 second, which is approximately 2 time constanct units, the
     - Any other voltages to check
 
 [Write up](/Electronics/Circuits/Automatic_Night_Light.md)
-
-## 121 call
-Booked technical 121 for 1pm with Joe
-
-- Chip-tech - Advertised a roled for Embedded software engineeri.
-Salary- 50k-60k
-- Joe will enquire about the last practica week. Is it applicable

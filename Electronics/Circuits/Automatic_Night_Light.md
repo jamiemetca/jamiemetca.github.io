@@ -16,23 +16,19 @@ Where the resistance comes from doesn't matter. Adding a second resistor is the 
 
 Here are some simulation and real world measurements to demostrate this.
 
-|-------+-----------+---------------+-----------|
 | Loci  | Voltage   | Resistance    | Current   |
 |-------|-----------|---------------|-----------|
 | Sim   | 9V        | 10,000Ω       | 900μA     |
 | IRL   | 9.31V     | 9,750Ω        | 942μA     |
 | Sim   | 9V        | 20,000Ω       | 450μA     |
 | IRL   | 9.31V     | 19,040Ω       | 473μA     |
-|-------+-----------+---------------+-----------|
 
 ## Parallel circuits
 In parallel circuits, resistance calculations are different.
-|-------+-----------+---------------+-----------|
 | Loci  | Voltage   | Resistance    | Current   |
-|-------+-----------+---------------+-----------|
+|-------|-----------|---------------|-----------|
 | Sim   | 9V        | 5,000Ω        | 1.80mA    |
 | IRL   | 9.31V     | 5,180Ω        | 1.83mA    |
-|-------+-----------+---------------+-----------|
 
 The measured current comes to 0.0018A (1.8mA). Which appears to go against Ohm's law.
 $$ I = V/R = 9 / 20,000Ω = 0.00045A $$
@@ -49,24 +45,21 @@ $$ I = V/R = 9V / 5,000Ω = 0.0018A (The measured value) $$
 When two components with differing resistance are in series. The voltage drop across each is proportional to their resistances.
 
 - Simulation
-|---------------+---------------+---------------+-------------------|
+
 |               | Resistor 1    | Resistor 2    | Both resistors    |
-|---------------+---------------+---------------+-------------------|
+|---------------|---------------|---------------|-------------------|
 | Resistance    | 10,000Ω       | 470Ω          | 10,470Ω           |
 | Voltage drop  | 8.596V        | 0.404V        | 9V                |
-|---------------+---------------+---------------+-------------------|
+
 - IRL
 $$ %V =  9,750Ω / 10,220Ω = 95.4% $$
 $$ 9.31V * 0.954 = 8.88V $$
 The measured voltage of 8.87 is very close.
 
-|---------------+---------------+---------------+-------------------|
 |               | Resistor 1    | Resistor 2    | Both resistors    |
-|---------------+---------------+---------------+-------------------|
+|---------------|---------------|---------------|-------------------|
 | Resistance    | 9,750Ω        | 460Ω          | 10,220Ω           |
 | Voltage drop  | 8.87V         | 0.41V         | 9.31V             |
-|---------------+---------------+---------------+-------------------|
-
 
 ## Wheatstone bridge
 The Automatice night light circuit is very similar to a Wheatstone bridge circuit.
