@@ -4,8 +4,8 @@
 
 [Home](/)
 
-<details>
-<summary>Week three 30/09/2025</summary>
+## Week three 30/09/2025
+
 Wrong
 Weeks one and two were meet and greet and had no lab work.
 
@@ -15,7 +15,7 @@ Weeks one and two were meet and greet and had no lab work.
     - tinkerCad
         - Not as clean as every circuit but so far has remained free.
 
-## Task 1
+### Task 1
 ---
 #### Be able to identify all of the components
 - Can information be gleaned from type numbers?
@@ -45,12 +45,12 @@ Weeks one and two were meet and greet and had no lab work.
 - [Diode](../Electronics/Components/Diodes.md)
 - Wires
 
-## Task 2
+### Task 2
 ---
 #### Identify all SMD (surface mounted devices) on both sides of the Arduino
 - Identify any through hole components? (Are there any)
 
-## Task 3
+### Task 3
 ---
 #### Build an LED power indicator circuit
 
@@ -70,7 +70,7 @@ $$ Green LED: {9V - 2.2V \over 0.02A} = {6.8v \over 0.02A} = {340Ω} $$
 
 - We were advised to use the next step up in available resistors. Which in our kit is 470Ω.
 
-## Task 4
+### Task 4
 ---
 #### Measure voltages across the LEDs and resistors
 
@@ -91,7 +91,7 @@ The component voltages are;
 I'm missing about ~
 $$ (9.27V - 8.87V) + (9.27V - 8.93V) = .4V + .34V = 0.74V $$
 
-## Task 5 and Task 6
+### Task 5 and Task 6
 ---
 #### Calculate current (I) with 470 and 1000 ohm resistors.
 - $$ I= {V_R /over R_R}$$
@@ -111,7 +111,7 @@ $$ {V_R /over R_R} = { 6.69V /over 470Ω } = 0.01423A (14.23mA) $$
 $$ {V_R /over R_R} = { 7.13V /over 470Ω /times 2 } = {7.13V /over 940Ω} = 0.0076A (7.6mA)  $$
 - The measured value of 7.64mA is almost exactly as expected.
 
-## Task 7 and Task 8
+### Task 7 and Task 8
 ---
 #### Replace the resistor with the LDR
 #### Measure the resistance of the LDR (light dependant resistor).
@@ -146,10 +146,7 @@ Confirm the resistor ratings are correct.
 | 10    | 22000 | 21400     |
 |-------|-------|-----------|
 
-</details>
-<details>
-<summary>Week four 07/10/2025</summary>
-## Notes
+## Week four 07/10/2025
 
 ### TODO
 - Add frequency calculation to formula page.
@@ -222,7 +219,7 @@ T = RC
     - Investigate the dimming circuit further.
         - What affect does changing each of the resistors have?
 
-## Task- charge and capacitor (22uF)
+### Task- charge and capacitor (22uF)
 - Measure the voltage
 - Observe discharging
 - Comment on time taken to discharge
@@ -254,7 +251,7 @@ After approximately 1 second, which is approximately 2 time constanct units, the
 
 <img src="/Images/Charge_Discharge_And_Measure_Capacitor_Voltage_My_Circuit.jpg" width="100%" >
 
-## Task- Build and assess the Automatic night light circuit
+### Task- Build and assess the Automatic night light circuit
 - Meaure the gain (hFE) of the transistor.
 
 
@@ -266,12 +263,7 @@ After approximately 1 second, which is approximately 2 time constanct units, the
 
 [Write up](/Electronics/Circuits/Automatic_Night_Light.md)
 
-
-</details>
-
-<details>
-<summary>Week 5 14/10/2025</summary>
-
+## Week 5 14/10/2025
 
 Signal generator or function generator
     - Fast changeing waveform of any frequency
@@ -291,12 +283,9 @@ Radio
 
 Website: 555-timer-circuits.com
 
-</details>
+## Week 6 21/10/2025
 
-<details>
-<summary>Week 6 21/10/2025</summary>
-
-## Baud rate
+### Baud rate
 For practical purposes, the baud rate is the rate of communications between the
 sender and receiver.
 With regrards to debugging, this is the rate data is sent from the board and the
@@ -308,7 +297,7 @@ A symbol is a waveform, a state or a signigicant condition of the communcation
 channel which persists for a fixed period of time.
 Each symbol may encode one or several binary digits (bits).
 
-## Recap questions
+### Recap questions
 
 Q1. Look closely at your Arduino board – what Microcontroller does it have on it?
 Atmel ATMEGA328p U
@@ -316,11 +305,11 @@ Atmel ATMEGA328p U
 Q3. Find the pinMode function in the slides, what do you think the two parameters are?
 input and output
 
-## Practical Tasks
+### Practical Tasks
 P5. Add the code shown on the slides to add serial output to your Sketch then upload/test using the Serial Monitor.
 
 
-## Extension Questions
+### Extension Questions
 
 E1. Find the datasheet for the microcontroller on your Arduino – theoretically, would the chip be suitable for use inside a domestic freezer where the temperature could be between -18 and -25 degrees Celsius?
 
@@ -332,7 +321,7 @@ E4. How do you think you would change the existing line of code to initialise LE
 
 E5. ‘LED_BUILTIN’ is effectively a shortcut (known as a constant in C) that represents the number of a specific GPIO pin, what is that number for your Arduino board?
 
-## Extension Challenges
+### Extension Challenges
 
 X1. Alter your code to flash ‘SOS’ in morse code using the LED on your Arduino (S = 3 long flashes, O = 3 short flashes) followed by a 3 second delay with the LED off.
 
@@ -341,12 +330,13 @@ X2. Alter your code to output each letter over the serial monitor once it has be
 X3. Using components in your kit connect 3 LEDs to your Arduino on digital pins 5, 6 and 7 (connect the positive leg of the LEDs to the Arduino pins and the other leg to ground through a resistor), try to light them in sequence like a traffic light. Hint: Use your existing code as a template using the pin numbers instead of LED_BUILTIN, don’t forget to initialise the new pins in setup(), work in small increments testing as you go.
 
 [Code is here](/Electronics/Circuits/Traffic_Lights_Arduino.md)
+
 <video width="100%" controls>
     <source src="/Images/Traffic_Lights_Arduino_My_Circuit.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
-## Helpful Links
+### Helpful Links
 
 Arduino IDE Download link:
 
@@ -364,4 +354,3 @@ Official Arduino getting started guide:
 
 https://docs.arduino.cc/learn/starting-guide/getting-started-arduino
 
-</details>
