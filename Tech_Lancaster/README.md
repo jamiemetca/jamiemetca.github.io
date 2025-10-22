@@ -340,7 +340,7 @@ X2. Alter your code to output each letter over the serial monitor once it has be
 
 X3. Using components in your kit connect 3 LEDs to your Arduino on digital pins 5, 6 and 7 (connect the positive leg of the LEDs to the Arduino pins and the other leg to ground through a resistor), try to light them in sequence like a traffic light. Hint: Use your existing code as a template using the pin numbers instead of LED_BUILTIN, don’t forget to initialise the new pins in setup(), work in small increments testing as you go.
 
-[Code is here](/Electronics/Circuits/Traffic_Lights_Arduino)
+[Code is here](/Electronics/Circuits/Traffic_Lights_Arduino.md)
 <video width="100%" controls>
     <source src="/Images/Traffic_Lights_Arduino_My_Circuit.mp4" type="video/mp4">
     Your browser does not support the video tag.
