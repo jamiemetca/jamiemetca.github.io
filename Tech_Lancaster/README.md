@@ -4,7 +4,9 @@
 
 [Home](/)
 
-# Week three 30/09/2025
+<details>
+<summary>Week three 30/09/2025</summary>
+Wrong
 Weeks one and two were meet and greet and had no lab work.
 
 - Find a web based circuit simulator.
@@ -144,7 +146,9 @@ Confirm the resistor ratings are correct.
 | 10    | 22000 | 21400     |
 |-------|-------|-----------|
 
-# Week four 07/10/2025
+</details>
+<details>
+<summary>Week four 07/10/2025</summary>
 ## Notes
 
 ### TODO
@@ -261,3 +265,103 @@ After approximately 1 second, which is approximately 2 time constanct units, the
     - Any other voltages to check
 
 [Write up](/Electronics/Circuits/Automatic_Night_Light.md)
+
+
+</details>
+
+<details>
+<summary>Week 5 14/10/2025</summary>
+
+
+Signal generator or function generator
+    - Fast changeing waveform of any frequency
+    - Multicomp MP751059
+
+Why is a square wave made up of many frequencies?
+
+What is a triangle wave?
+
+Pulse width modulation is the width of width of the peak voltage.
+Duty cycle
+mark width space modifier
+
+Radio 
+    - Frequecy modulation FM
+    - Amplitude modulation AM
+
+Website: 555-timer-circuits.com
+
+</details>
+
+<details>
+<summary>Week 6 21/10/2025</summary>
+
+## Baud rate
+For practical purposes, the baud rate is the rate of communications between the
+sender and receiver.
+With regrards to debugging, this is the rate data is sent from the board and the
+rate the debugger expects to recieve the data at.
+
+More technical explaination
+The baud rate is the symbol rate in symbols per second.
+A symbol is a waveform, a state or a signigicant condition of the communcation
+channel which persists for a fixed period of time.
+Each symbol may encode one or several binary digits (bits).
+
+## Recap questions
+
+Q1. Look closely at your Arduino board – what Microcontroller does it have on it?
+Atmel ATMEGA328p U
+
+Q3. Find the pinMode function in the slides, what do you think the two parameters are?
+input and output
+
+## Practical Tasks
+P5. Add the code shown on the slides to add serial output to your Sketch then upload/test using the Serial Monitor.
+
+
+## Extension Questions
+
+E1. Find the datasheet for the microcontroller on your Arduino – theoretically, would the chip be suitable for use inside a domestic freezer where the temperature could be between -18 and -25 degrees Celsius?
+
+E2. Can you find out what package type the microcontroller on your Arduino is?
+
+E3. Assuming each of the 12 parts in the Starcats coffee maker example only required one digital Input or Output pin, would your Arduino have enough pins?
+
+E4. How do you think you would change the existing line of code to initialise LED_BUILTIN to be an input pin?
+
+E5. ‘LED_BUILTIN’ is effectively a shortcut (known as a constant in C) that represents the number of a specific GPIO pin, what is that number for your Arduino board?
+
+## Extension Challenges
+
+X1. Alter your code to flash ‘SOS’ in morse code using the LED on your Arduino (S = 3 long flashes, O = 3 short flashes) followed by a 3 second delay with the LED off.
+
+X2. Alter your code to output each letter over the serial monitor once it has been ’flashed’ in morse code.
+
+X3. Using components in your kit connect 3 LEDs to your Arduino on digital pins 5, 6 and 7 (connect the positive leg of the LEDs to the Arduino pins and the other leg to ground through a resistor), try to light them in sequence like a traffic light. Hint: Use your existing code as a template using the pin numbers instead of LED_BUILTIN, don’t forget to initialise the new pins in setup(), work in small increments testing as you go.
+
+[Code is here](/Electronics/Circuits/Traffic_Lights_Arduino)
+<video width="100%" controls>
+    <source src="/Images/Traffic_Lights_Arduino_My_Circuit.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+## Helpful Links
+
+Arduino IDE Download link:
+
+https://www.arduino.cc/en/software
+
+Sparkfun guide to installing CH340 Drivers:
+
+https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all
+
+Details of Arduino ‘Nano’:
+
+https://kunkune.co.uk/shop/on-sale/mini-usb-nano-v3-0-atmega328p-ch340-5v-16mhz-soldered
+
+Official Arduino getting started guide:
+
+https://docs.arduino.cc/learn/starting-guide/getting-started-arduino
+
+</details>

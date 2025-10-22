@@ -2,4 +2,7 @@
 
 # Acronyms
 
+- BIST - Built-in self-testing
+    - Can be implemented at the PCB or system level
+- PCB - Printed Circuit Board
 - SMD - Surface mounted devices

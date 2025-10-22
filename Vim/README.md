@@ -69,3 +69,13 @@ To enter a digraph.
 - While in insert mode.
 - Type ctrl-k
 - Followed by the two character code.
+
+## Numbered bullet points
+Use cat to add numbers to the start of specific lines.
+In visual mode, highlight the rows.
+
+```vim
+:'<, '>!cat -n
+```
+The part between the colon and exclaimation mark will be added automatically.
+This part: '<, '>

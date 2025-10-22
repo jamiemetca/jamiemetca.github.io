@@ -83,7 +83,10 @@ Because of this I found that with a 9V battery the resistance of the variable re
 
 <img src="/Images/Automatic_Night_Light_Schematic.png" width="100%" >
 <img src="/Images/Automatic_Night_Light_My_Circuit.jpg" width="100%" >
-<img src="/Images/Automatic_Night_Light_My_Circuit.mp4" width="100%" >
+<video width="100%" controls>
+    <source src="/Images/Automatic_Night_Light_My_Circuit.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video> 
 
 Limitations: The potentiometer didn't have much of an effect in adjusting the circuits sensitivity to light. I think this was becuase the range of resistance was much smaller than the
 

@@ -60,3 +60,15 @@ Outcome:
 - What skills do I need to demostrate by December to secure my desired role?
 
 
+## Plan
+- Update CV to be electronics focused
+    - Focus on my journey, ability and desire to learn new skills
+- Hunt for job opportunities
+    - Chiptech
+        - Embedded software developer
+    - Milliamp
+        - Junior Embedded Design Engineer
+        - Junior Embedded Electronics Technician
+- Reach out to companies
+    - Send my CV
+    - My plan, my aim, is there anything they have that 
