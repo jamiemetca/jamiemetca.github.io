@@ -4,9 +4,8 @@
 
 [Home](/)
 
-## Week three 30/09/2025
+## Week three 30/09/2025 - Overview of components
 
-Wrong
 Weeks one and two were meet and greet and had no lab work.
 
 - Find a web based circuit simulator.
@@ -15,64 +14,48 @@ Weeks one and two were meet and greet and had no lab work.
     - tinkerCad
         - Not as clean as every circuit but so far has remained free.
 
-### Task 1
----
-#### Be able to identify all of the components
-- Can information be gleaned from type numbers?
-#### How does the potentiometer work?
-#### State the differences between transistors and MOSFET
-#### How are the four pins on the switch connected?
-
+### Be able to identify all of the components
 - 4093 IC
-- [555 timer](../Electronics/Components/555_Timer.md)
+- [555 timer](../Electronics/Components/555_Timer)
 - 9V battery
 - Antistatic write strap
 - Arduino Uno
 - Battery snap
 - Breadboard
-- [Capacitor](../Electronics/Components/Capacitor.md)
+- [Capacitor](../Electronics/Components/Capacitor)
     - (22uf - mircofarads and 22nf nanofarads) 
 - DMM (digital multimeter)
-- [LED](../../Electronics/Components/LEDs.md)
-- [MOSFET (N channel)](../Electronics/Components/Mosfet.md)
-- [Potentiometer](../Electronics/Components/Potentiometer.md)
+- [LED](../../Electronics/Components/LEDs)
+- [MOSFET (N channel)](../Electronics/Components/Mosfet)
+- [Potentiometer](../Electronics/Components/Potentiometer)
 - Resistors
-- [Switch](../Electronics/Components/Switch.md)
+- [Switch](../Electronics/Components/Switch)
 - LDR (Light dependant resistor)
 - Piezo
-- [Thermistor](../Electronics/Components/Thermistor.md)
-- [Transistors](../Electronics/Components/Transistor.md)
-- [Diode](../Electronics/Components/Diodes.md)
+- [Thermistor](../Electronics/Components/Thermistor)
+- [Transistors](../Electronics/Components/Transistor)
+- [Diode](../Electronics/Components/Diodes)
 - Wires
 
-### Task 2
----
-#### Identify all SMD (surface mounted devices) on both sides of the Arduino
-- Identify any through hole components? (Are there any)
-
-### Task 3
----
-#### Build an LED power indicator circuit
+### Build an LED power indicator circuit
 
 <img src="/Images/Single_LED_Circuit.png" width="100%" >
 <img src="/Images/Single_LED_My_Circuit.jpg" width="100%" >
 
-#### Add another LED in parallel
+### Add another LED in parallel
 
 <img src="/Images/Two_LEDs_Circuit.png" width="100%" >
 <img src="/Images/Two_LEDs_My_Circuit.jpg" width="100%" >
 
-#### Ensure the correct resistors are being used
-- I found the voltage drop of an LED was around 1.8V and 2.2V for a red and green LED respectively.
+### Ensure the correct resistors are being used
+I found the voltage drop of an LED was around 1.8V and 2.2V for a red and green LED respectively.
 
 $$ Red LED: {9V - 1.8V \over 0.02A} = {7.2V \over 0.02A} = {360Ω} $$
 $$ Green LED: {9V - 2.2V \over 0.02A} = {6.8v \over 0.02A} = {340Ω} $$
 
-- We were advised to use the next step up in available resistors. Which in our kit is 470Ω.
+We were advised to use the next step up in available resistors. Which in our kit is 470Ω.
 
-### Task 4
----
-#### Measure voltages across the LEDs and resistors
+### Measure voltages across the LEDs and resistors
 
 <img src="/Images/Two_LEDs_Circuit.png" width="100%" >
 <img src="/Images/Two_LEDs_My_Circuit.jpg" width="100%" >
@@ -86,36 +69,36 @@ The component voltages are;
 - Resistor (of the red LED): 6.95V
 - Red branch total: 1.98V + 6.95V = 8.93V
 
-#### Do the component voltages sum to the power supply voltage?
+I'm missing about 0.74V but this could be for any number of reasons.
 
-I'm missing about ~
 $$ (9.27V - 8.87V) + (9.27V - 8.93V) = .4V + .34V = 0.74V $$
 
-### Task 5 and Task 6
----
-#### Calculate current (I) with 470 and 1000 ohm resistors.
-- $$ I= {V_R /over R_R}$$
+### Calculate current (I) with 470 and 1000 ohm resistors.
+
+$$ I= {V_R /over R_R}$$
+
 - Where V_R = Voltage of resistor
 - Where R_R = Resistance of resistor
-#### Measure the current with the DMM on the 200mA range.
+
+### Measure the current with the DMM on the 200mA range.
 
 <img src="/Images/Single_LED_Circuit.png" width="100%" >
 <img src="/Images/Single_LED_My_Circuit.jpg" width="100%">
+
 $$ {V_R /over R_R} = { 6.69V /over 470Ω } = 0.01423A (14.23mA) $$
-- The measured value of 14.58mA (milli amps) is almost exactly what I expected.
+
+The measured value of 14.58mA (milli amps) is almost exactly what I expected.
 
 <img src="/Images/Two_LEDs_Circuit.png" width="100%" >
 <img src="/Images/Single_LED_Two_470_resistors_My_Circuit.jpg" width="100%" >
-- The supplied 1kΩ resistor is actullay 330Ω so I'll calculate two 470Ω resistors in series.
+
+The supplied 1kΩ resistor is actullay 330Ω so I'll calculate two 470Ω resistors in series.
 
 $$ {V_R /over R_R} = { 7.13V /over 470Ω /times 2 } = {7.13V /over 940Ω} = 0.0076A (7.6mA)  $$
-- The measured value of 7.64mA is almost exactly as expected.
 
-### Task 7 and Task 8
----
-#### Replace the resistor with the LDR
-#### Measure the resistance of the LDR (light dependant resistor).
-#### Record the maximum and minimum resistances (vary the light level)?
+The measured value of 7.64mA is almost exactly as expected.
+
+### Replace the resistor with the LDR and measure the resistance under a range of light levels
 
 <img src="/Images/Single_LED_LDR_My_Circuit.jpg" width="100%" >
 
@@ -137,6 +120,8 @@ $$ { V /over I } = { 7.21V /over .0062A } = 1,163Ω $$
 ### Additional tasks
 Confirm the resistor ratings are correct.
 
+Only one set of resistors where labelled correctly.
+
 |-------|-------|-----------|
 | Label | Bands | Measured  |
 |-------|-------|-----------|
@@ -146,18 +131,13 @@ Confirm the resistor ratings are correct.
 | 10    | 22000 | 21400     |
 |-------|-------|-----------|
 
-## Week four 07/10/2025
+## Week four 07/10/2025 - Capacitors and auto night light
 
-### TODO
-- Add frequency calculation to formula page.
+- Frequency calculation
     - 1 second/ time (time for 1 wave cycle)  = frequency
-
 - PicoScope
-
 - 230V * 1.4(RMS value) = 320V
-
 - half-wave rectifier- AC -> DC
-
 - Diode
     - current goes towards the silver stripe
     - Voltage drop
@@ -165,12 +145,9 @@ Confirm the resistor ratings are correct.
         - The voltage lost across a diode
         - It's a side-effect
         - P-N junction - this drop is what consumes the power.
-
 - On Amazone (Ali-express ~ £3)
     - buy a kit to build your own signal generator
     - requires soldering
-    - 
-
 - Capacitors
     - T = RC
         - Add time to discharge calculation to formula page.
@@ -188,20 +165,16 @@ Confirm the resistor ratings are correct.
         - Toasters
         - Bathroom fans
         - Car interior lights
-
 - Voltage
     - What is considered low?
     - Does it depend on the current?
     - Can you SAFELY measure the resistance of you (the capacitor was discharging through his body)
-
 -  R-C network
     - r= r per v
     - c = c per volt
-T = RC
-
+    - T = RC
 - Transistor
     - Why does the resistor on the base affect the brighnes of the LED
-
 - MOSFET
     - The base is activated by voltage. No current needs to flow.
     - They are also sensitive, and so can be damaged by static electricity.
@@ -219,12 +192,12 @@ T = RC
     - Investigate the dimming circuit further.
         - What affect does changing each of the resistors have?
 
-### Task- charge and capacitor (22uF)
+### Charge and capacitor (22uF)
 - Measure the voltage
 - Observe discharging
 - Comment on time taken to discharge
 
-Notes on capacitors [here](/Electronics/Components/Capacitors.md)
+Notes on capacitors [here](/Electronics/Components/Capacitors)
 
 $$ T = RC $$
 Where;
@@ -251,7 +224,7 @@ After approximately 1 second, which is approximately 2 time constanct units, the
 
 <img src="/Images/Charge_Discharge_And_Measure_Capacitor_Voltage_My_Circuit.jpg" width="100%" >
 
-### Task- Build and assess the Automatic night light circuit
+### Build and assess the Automatic night light circuit
 - Meaure the gain (hFE) of the transistor.
 
 
@@ -261,9 +234,9 @@ After approximately 1 second, which is approximately 2 time constanct units, the
     - LED voltage when on and off
     - Any other voltages to check
 
-[Write up](/Electronics/Circuits/Automatic_Night_Light.md)
+[Write up](/Electronics/Circuits/Automatic_Night_Light)
 
-## Week 5 14/10/2025
+## Week 5 14/10/2025- 555 timer and wave forms
 
 Signal generator or function generator
     - Fast changeing waveform of any frequency
@@ -283,7 +256,7 @@ Radio
 
 Website: 555-timer-circuits.com
 
-## Week 6 21/10/2025
+## Week 6 21/10/2025 - Arduino blinky and traffic lights
 
 ### Baud rate
 For practical purposes, the baud rate is the rate of communications between the
@@ -300,26 +273,20 @@ Each symbol may encode one or several binary digits (bits).
 ### Recap questions
 
 Q1. Look closely at your Arduino board – what Microcontroller does it have on it?
-Atmel ATMEGA328p U
+- Atmel ATMEGA328p U
 
 Q3. Find the pinMode function in the slides, what do you think the two parameters are?
-input and output
-
-### Practical Tasks
-P5. Add the code shown on the slides to add serial output to your Sketch then upload/test using the Serial Monitor.
-
+- input and output
 
 ### Extension Questions
 
 E1. Find the datasheet for the microcontroller on your Arduino – theoretically, would the chip be suitable for use inside a domestic freezer where the temperature could be between -18 and -25 degrees Celsius?
+- Yes, thermal limits are -40°C -> 85°C
 
 E2. Can you find out what package type the microcontroller on your Arduino is?
+- ATmega328P is the microcontroller
 
 E3. Assuming each of the 12 parts in the Starcats coffee maker example only required one digital Input or Output pin, would your Arduino have enough pins?
-
-E4. How do you think you would change the existing line of code to initialise LED_BUILTIN to be an input pin?
-
-E5. ‘LED_BUILTIN’ is effectively a shortcut (known as a constant in C) that represents the number of a specific GPIO pin, what is that number for your Arduino board?
 
 ### Extension Challenges
 
@@ -327,9 +294,18 @@ X1. Alter your code to flash ‘SOS’ in morse code using the LED on your Ardui
 
 X2. Alter your code to output each letter over the serial monitor once it has been ’flashed’ in morse code.
 
+[Code is here](/Electronics/Circuits/Morse_Code_Hello_World)
+
+"hello world" in morse code
+
+<video width="100%" controls>
+    <source src="/Images/Morse_Code_Hello_World.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
 X3. Using components in your kit connect 3 LEDs to your Arduino on digital pins 5, 6 and 7 (connect the positive leg of the LEDs to the Arduino pins and the other leg to ground through a resistor), try to light them in sequence like a traffic light. Hint: Use your existing code as a template using the pin numbers instead of LED_BUILTIN, don’t forget to initialise the new pins in setup(), work in small increments testing as you go.
 
-[Code is here](/Electronics/Circuits/Traffic_Lights_Arduino.md)
+[Code is here](/Electronics/Circuits/Traffic_Lights_Arduino)
 
 <video width="100%" controls>
     <source src="/Images/Traffic_Lights_Arduino_My_Circuit.mp4" type="video/mp4">
@@ -353,4 +329,3 @@ https://kunkune.co.uk/shop/on-sale/mini-usb-nano-v3-0-atmega328p-ch340-5v-16mhz-
 Official Arduino getting started guide:
 
 https://docs.arduino.cc/learn/starting-guide/getting-started-arduino
-
