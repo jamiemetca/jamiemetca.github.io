@@ -311,21 +311,3 @@ X3. Using components in your kit connect 3 LEDs to your Arduino on digital pins 
     <source src="/Images/Traffic_Lights_Arduino_My_Circuit.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
-
-### Helpful Links
-
-Arduino IDE Download link:
-
-https://www.arduino.cc/en/software
-
-Sparkfun guide to installing CH340 Drivers:
-
-https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all
-
-Details of Arduino ‘Nano’:
-
-https://kunkune.co.uk/shop/on-sale/mini-usb-nano-v3-0-atmega328p-ch340-5v-16mhz-soldered
-
-Official Arduino getting started guide:
-
-https://docs.arduino.cc/learn/starting-guide/getting-started-arduino

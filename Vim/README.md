@@ -65,6 +65,8 @@ To show a list of digraphs
 :dig!
 ```
 
+W* =  Ω
+
 To enter a digraph.
 - While in insert mode.
 - Type ctrl-k

@@ -6,6 +6,7 @@ A repo of notes
 
 Topics
 ---
+- [Arduino](./Arduino/README.md)
 - [C](./C/README.md)
 - [Electronics](./Electronics/README.md)
 - [Git](./Git/Git.md)
