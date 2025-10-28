@@ -81,3 +81,9 @@ In visual mode, highlight the rows.
 ```
 The part between the colon and exclaimation mark will be added automatically.
 This part: '<, '>
+
+## Column movement
+To jump to a column position
+```vim
+80|
+```
