@@ -54,7 +54,7 @@ void pinMode(uint8_t pin, uint8_t mode)
                 - ~reg
             - portOutputRegister
     - volatile
-    - SREG
+    - [SREG](/Arduino/SREG)
         - __AVR_ARCH__ in my Arduino Uno R3 it's set to 5.
     - cli();
 

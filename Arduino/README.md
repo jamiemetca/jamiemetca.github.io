@@ -2,4 +2,6 @@
 
 # Arduio
 
-## [Reading and using an analog voltage signal](/Arduino/Reading_Analog_Voltage)
+- [Reading and using an analog voltage signal](/Arduino/Reading_Analog_Voltage)
+- Deep dive
+    - [Pin mode](/Arduino/Pin_mode)
