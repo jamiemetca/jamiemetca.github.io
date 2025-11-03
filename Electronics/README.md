@@ -18,8 +18,13 @@
     - [Thermistor](./Components/Thermistor.md)
     - [Transistor](./Components/Transistors.md)
 - Circuits
+    - [Automatic night light](./Circuits/Automatic_Night_Light.md)
+    - [More code](./Circuits/More_Code_Hello_World.md)
+    - [Push buton LED](./Circuits/Push_buton_LED.md)
     - [Symbols](./Circuits/Symbols.md)
     - [Simple LED](./Circuits/simple_LED.md)
+    - [Taking measurements](./Circuits/Taking_Measurement.md)
+    - [Traffic lights](./Circuits/Traffic_Lights_Arduino.md)
     - [template](./Circuits/template.md)
 - Electrical principles
     - [Counter EMF](./Electrical_principles/Back_EMF.md)

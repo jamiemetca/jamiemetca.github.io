@@ -1,6 +1,6 @@
 24/10/2025
 
-# Arduio
+# Arduino
 
 - [Reading and using an analog voltage signal](/Arduino/Reading_Analog_Voltage)
 - Deep dive
