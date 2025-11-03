@@ -41,8 +41,46 @@ void loop() {
 
 ```
 
-<img src="/Images/Push_button_LED_circuit.png" width="100%" >
+<img src="/Images/Push_button_LED_circuit.jpg" width="100%" >
 <video width="100%" controls>
     <source src="/Images/Push_button_LED_circuit.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+
+
+## pinMode INPUT vs INPUT_PULLUP circuit
+When setting the pinMode. Arduino provdies an INPUT_PULLUP mode.
+This uses a built in resistor to pull the voltage up.
+
+By using this setting, the resistor pulling pin 2 down can be removed. The code
+also needs to be changed because the pin is now pull up by default. Pressing
+the button now grounds the pin.
+
+|---------------|--------------|
+| pin 2 voltage | Button state |
+|---------------|--------------|
+| HIGH          | Not pressed  |
+| LOW           | Pressed      |
+|---------------|--------------|
+
+```c
+const int buttonPin = 2;
+const int ledPin = 13;
+
+void setup() {
+  pinMode(ledPin, OUTPUT);
+  pinMode(buttonPin, INPUT_PULLUP);  
+}
+
+void loop() {
+  int buttonState = digitalRead(buttonPin);
+	digitalWrite(ledPin, !buttonState);
+}
+```
+
+<img src="/Images/Push_button_LED_circuit_PULL_UP.jpg" width="100%" >
+<video width="100%" controls>
+    <source src="/Images/Push_button_LED_circuit_PULL_UP.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
