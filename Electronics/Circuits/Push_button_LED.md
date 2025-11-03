@@ -1,7 +1,7 @@
 31/10/2025
 
 # Push button LED circuit
-An example circuit provided by Arduino. Pressing a button turns on/off and LED
+An example circuit provided by Arduino. Pressing a button turns on/off an LED
 
 ## Circuit overview
 For this circuit we use two pins on the arduino.
