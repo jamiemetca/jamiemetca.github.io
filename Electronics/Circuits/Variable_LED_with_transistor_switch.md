@@ -9,10 +9,10 @@ The in pin (A0) measures voltage change of a potentiometer.
 The out pin (9) outputs a analog signal which I use to incrementally increase
 the current to the base pin of a transistor.
 
-<img src="/Images/Varianle_LED_transistor_circuit.jpg" width="100%" >
+<img src="/Images/Variable_LED_transistor_circuit.jpg" width="100%" >
 
 <video width="100%" controls>
-    <source src="/Images/Varianle_LED_transistor_circuit.mp4" type="video/mp4">
+    <source src="/Images/Variable_LED_transistor_circuit.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video> 
 
