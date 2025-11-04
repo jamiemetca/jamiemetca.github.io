@@ -26,6 +26,8 @@
     - [Taking measurements](./Circuits/Taking_Measurement.md)
     - [Traffic lights](./Circuits/Traffic_Lights_Arduino.md)
     - [template](./Circuits/template.md)
+    - [Variable trasistor circuit](/Electronics/Circuits
+/Variable_LED_with_transistor_switch)
 - Electrical principles
     - [Counter EMF](./Electrical_principles/Back_EMF.md)
     - [Forward voltage](./Electrical_principles/Forward_voltage.md)
