@@ -4,9 +4,17 @@
 
 [Home](/)
 
-## [Week three 30/09/2025 - Overview of components](/Tech_Lancaster/practical_notes/20250930)
-## [Week four 07/10/2025 - Capacitors and auto night light](/Tech_Lancaster/practical_notes/20251007)
-## [Week 5 14/10/2025- 555 timer and wave forms](/Tech_Lancaster/practical_notes/20251014)
-## [Week 6 21/10/2025 - Arduino blinky and traffic lights](/Tech_Lancaster/practical_notes/20251021)
-## [Week 7 28/10/2025 - Digital read/write (light switch)](/Tech_Lancaster/practical_notes/20251028)
-## [Week 8 04/11/2025 - Logic gates](/Tech_Lancaster/practical_notes/20251104)
+### [Week three 30/09/2025 - Overview of components](/Tech_Lancaster/practical_notes/20250930)
+
+### [Week four 07/10/2025 - Capacitors and auto night light](/Tech_Lancaster/practical_notes/20251007)
+
+### [Week 5 14/10/2025- 555 timer and wave forms](/Tech_Lancaster/practical_notes/20251014)
+
+
+[Week 6 21/10/2025 - Arduino blinky and traffic lights](/Tech_Lancaster/practical_notes/20251021)
+
+
+[Week 7 28/10/2025 - Digital read/write (light switch)](/Tech_Lancaster/practical_notes/20251028)
+
+
+[Week 8 04/11/2025 - Logic gates](/Tech_Lancaster/practical_notes/20251104)
