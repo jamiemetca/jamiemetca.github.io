@@ -22,7 +22,7 @@
 - Circuits
     - [Automatic night light](./Circuits/Automatic_Night_Light)
     - [Morse code](./Circuits/Morse_Code_Hello_World)
-    - [Nand circuits](./Circuits/Nand_Gate_Push_Button)
+    - [Nand circuits](./Circuits/Nand_Gate_Push_Buttons)
     - [Push buton LED](./Circuits/Push_buton_LED)
     - [Symbols](./Circuits/Symbols)
     - [Simple LED](./Circuits/simple_LED)

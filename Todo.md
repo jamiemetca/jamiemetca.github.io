@@ -1,9 +1,10 @@
-Last updated 2025/09/25
+[Home](/)
+
+25/09/2025
 
 # Todo
 
-[Root](README.md)
-
+- Update all dates to use dd/mm/yyyy
 - Write up Tech-Lancaster week 7 notes
     - Button circuit
         - build
