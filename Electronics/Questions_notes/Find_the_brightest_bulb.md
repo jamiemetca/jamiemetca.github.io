@@ -1,8 +1,8 @@
+[Back](../)
+
 2025/09/25
 
 ## Example 1: Find the brightest bulb
-
-[Back](../README.md)
 
 ### Schematic
 ---

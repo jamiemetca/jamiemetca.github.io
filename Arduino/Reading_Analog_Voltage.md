@@ -1,3 +1,5 @@
+[Back](./)
+
 24/10/2025
 
 # Reading analog voltage

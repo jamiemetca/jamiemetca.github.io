@@ -1,3 +1,5 @@
+[Back](../)
+
 07/10/2025
 
 # Counter EMF (Back EMF)

@@ -1,3 +1,5 @@
+[Back](../)
+
 09/10/2025
 
 # Automatic night light

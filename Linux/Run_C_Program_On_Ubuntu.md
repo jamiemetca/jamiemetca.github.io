@@ -1,4 +1,6 @@
-30/09/2025
+[Back](../)
+
+2025/09/30
 
 # Write and Run a C programme on Ubuntu
 

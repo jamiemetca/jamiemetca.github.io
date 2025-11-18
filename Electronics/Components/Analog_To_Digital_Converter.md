@@ -1,3 +1,5 @@
+[Back](../)
+
 08/10/2025
 
 # ADC - Analog to digital converter

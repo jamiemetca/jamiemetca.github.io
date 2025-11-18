@@ -1,3 +1,5 @@
+[Home](/)
+
 14/10/2025
 
 # Career notes

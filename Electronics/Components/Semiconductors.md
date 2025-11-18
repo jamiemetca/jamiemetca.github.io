@@ -1,8 +1,8 @@
+[Back](../)
+
 2025/09/24
 
 # Semiconductors
-
-[Back](../README.md)
 
 A semiconductor is a material, most commonly silicon, with an electrical conductivity between that of a conductor and an insulator.
 

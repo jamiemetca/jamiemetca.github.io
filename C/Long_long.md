@@ -1,8 +1,8 @@
+[Back](README)
+
 2025/09/24
 
 # Long long & Unsigned long long
-
-[Back](./README.md)
 
 The long long is a built in data type used to store integers.
 It's an extended version long data type and is guaranteed to be at least 64 bits, but can be larger depending on the system architecture.

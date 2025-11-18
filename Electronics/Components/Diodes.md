@@ -1,8 +1,8 @@
+[Back](../README.md)
+
 2025/09/24
 
 # Diodes
-
-[Back](../README.md)
 
 These notes need to be tidied up.
 ---

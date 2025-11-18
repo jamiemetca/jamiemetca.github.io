@@ -1,8 +1,8 @@
+[Back](../)
+
 2025/09/20 (last update 29/09/2025)
 
 # Simple LED circuit
-
-[Back](../README.md)
 
 ## Objective:
 - To calculate the resistor value required to prevent damage to an [LED](../Components/LEDs.md)

@@ -1,8 +1,8 @@
-2025/09/25 (last updated 29/09/2025)
+[Back](README.md)
+
+2025/09/25
 
 # Formula
-
-[Back](README.md)
 
 ## Symbols
 - I = current (amperes)

@@ -1,3 +1,5 @@
+[Home](/)
+
 2025/09/24 (last update 29/09/2025)
 
 # Markdown

@@ -1,8 +1,8 @@
+[Back](../)
+
 2025/09/24
 
 # LEDs
-
-[Back](../README.md)
 
 An LED is a type of [diode](Diodes.md) which means;
 - The current can only flow in one direction

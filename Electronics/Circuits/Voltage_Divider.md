@@ -1,3 +1,5 @@
+[Back](../)
+
 08/10/2025
 
 # Voltage divider (potential divider)
