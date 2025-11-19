@@ -38,4 +38,5 @@
 - [Formulas](Formula)
 - Question notes
     - [Find the brightest bulb](Questions_notes/Find_the_brightest_bulb)
+    - [Electronics recap questions](Questions_notes/Midway_questions)
 - [Unit convertion](Unit_Convertion)

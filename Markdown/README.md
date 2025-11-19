@@ -6,6 +6,24 @@
 
 Notes on regularly used or possibly useful markdown syntax
 
+## Collapsed sections
+
+<details>
+
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+
+You can add text within a collapsed section.
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+```
+
+</details>
+
 ## Alerts
 
 There are 5 alert styles
