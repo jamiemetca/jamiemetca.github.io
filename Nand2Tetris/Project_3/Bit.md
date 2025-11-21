@@ -1,7 +1,7 @@
-2025/09/19
+[Back](../)
+
+19/09/2025
 
 # The Bit chip
-
-[Back](../README.md)
 
 The bit chip is the first sequential logic chip encountered.

@@ -8,6 +8,7 @@ Notes for working with git
 
 ## Authenticating with github via cli
 git config --global user.email "Jamiemetc@gmail.com"
+
 git config --global user.name "Jamiemetca"
 
 Todo:

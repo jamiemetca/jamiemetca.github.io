@@ -1,6 +1,6 @@
 [Back](./)
 
-2025/09/24
+24/09/2025
 
 # Negative numbers (The 2s complement system)
 

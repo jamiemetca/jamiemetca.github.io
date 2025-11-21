@@ -1,6 +1,6 @@
 [Back](./)
 
-2025/09/19
+19/09/2025
 
 # Pointers to an array
 

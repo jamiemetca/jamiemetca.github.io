@@ -79,7 +79,7 @@ With this circuit the direction of the current across the bridge can be manipula
 ## Automatic night light
 Following the above investigations specifically studying the Wheatstone bridge circuit. I have a much better understanding of the automatic night light circuit.
 
-As the base of a semiconductor requires much less current that the collector ([Approximately 1%](https://en.wikipedia.org/wiki/2N3904).
+As the base of a semiconductor requires much less current that the collector [Approximately 1%](https://en.wikipedia.org/wiki/2N3904).
 
 Because of this I found that with a 9V battery the resistance of the variable resistance branch had to be at least 500 times higher than the LED branch.
 

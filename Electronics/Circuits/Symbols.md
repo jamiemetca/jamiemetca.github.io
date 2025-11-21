@@ -8,7 +8,7 @@ Anode = positive
 Cathode = negative
 
 ## Battery
-<img src="/Images/battery.svg" height="150">
+<img src="/Images/battery.svg.png" height="150">
 
 A battery is represented by one or more groupings of two parallel lines, one long and one short.
 

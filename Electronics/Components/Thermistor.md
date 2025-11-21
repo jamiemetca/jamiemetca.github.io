@@ -4,7 +4,7 @@
 
 # Thermistor
 
-<img src="../Circuits/Symbols/thermistor.webp" height="150">
+<img src="/Images/thermistor.webp" height="150">
 
 Thermistors are temperature sensitive resistors.
 There are two categories;
@@ -34,7 +34,7 @@ There are two categories;
         
 
 
-<img src="../Circuits/Symbols/thermistor_graphs.png" height="150">
+<img src="Images/thermistor_graphs.png" height="150">
     
 ## NTC
 NTCs are suseptible to very small changes in temperature.
