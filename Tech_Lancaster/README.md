@@ -4,15 +4,43 @@
 
 # Logbook
 
-[30/09/2025 - week 3](/Tech_Lancaster/practical_notes/20250930)
+## Week 3 (First online practical)
+### 30/09/2025
+[notes](/Tech_Lancaster/practical_notes/20250930)
+- Basic electronic components.
+- Simple circuits (power indicator)
+- Taking measurements (voltage, current, resistance)
 
-[07/10/2025 - week 4](/Tech_Lancaster/practical_notes/20251007)
+## Week 4
+### 07/10/2025
+[notes](/Tech_Lancaster/practical_notes/20251007)
+- Power supplies
+- Diodes
+- Capacitors
+- Intro to transistors
 
-[14/10/2025 - week 5](/Tech_Lancaster/practical_notes/20251014)
+## Week 5
+### 14/10/2025
+[notes](/Tech_Lancaster/practical_notes/20251014)
+- Pulse width modulation (PWM)
+- Duty cycles
+- Frequency
+- Capacitor and resistor time constant
+- 555 intro
 
-[21/10/2025 - week 6](/Tech_Lancaster/practical_notes/20251021)
+## Week 6
+### 21/10/2025
+[notes](/Tech_Lancaster/practical_notes/20251021)
+- Arduino
 
-[28/10/2025 - week 7](/Tech_Lancaster/practical_notes/20251028)
+## Week 7
+### 28/10/2025
+[notes](/Tech_Lancaster/practical_notes/20251028)
+- More ardunio
 
-[04/11/2025 - week 8](/Tech_Lancaster/practical_notes/20251104)
+## Week 8
+### 04/11/2025
+[notes](/Tech_Lancaster/practical_notes/20251104)
+- Digital circuits
+- Logic gates
 
