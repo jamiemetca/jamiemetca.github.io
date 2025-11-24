@@ -5,6 +5,7 @@
 - [Linux](./Linux)
 - [Markdown](./Markdown)
 - [Nand2Tetris](./Nand2Tetris)
+- [Projects](/Projects)
 - [Tech Lancaster Logbook](./Tech_Lancaster)
 - [Terminal](./Terminal)
 - [Vim](./Vim)
