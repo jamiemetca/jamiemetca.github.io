@@ -66,8 +66,16 @@ To show a list of digraphs
 ```vim
 :dig!
 ```
+- micro
+My = µ
+
+- ohms
 
 W* =  Ω
+
+- Degrees
+
+DG = °
 
 To enter a digraph.
 - While in insert mode.
