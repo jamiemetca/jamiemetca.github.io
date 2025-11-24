@@ -8,17 +8,17 @@ To test and confirm the hysteresis affect of the schmitt triggers. A nand gate
 of the 4093 chip can be used as an inverter. The differences in the thresolds
 (positive-going and negative-going) can be seen.
 
-<img src="/Images/Hysteresis.png" width="100%" >
+<img src="/Images/Hysteresis_Circuit.jpg" width="100%" >
 
-<video width="100%" controls>
+<video width="100%" controls muted>
     <source src="/Images/Hysteresis_Circuit.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video> 
 
 This behavious can be used in things like street lights to prevent flicker.
 Here's an example circuit.
-<video width="100%" controls>
-    <source src="/Images/Photoresistor_hysteresis_curcuit.mp4" type="video/mp4">
+<video width="100%" controls muted>
+    <source src="/Images/Photoresistor_hysteresis_circuit.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video> 
 
@@ -56,19 +56,19 @@ Audible with a speaker (454Hz)
 </video> 
 
 0.72Hz
-<video width="100%" controls>
+<video width="100%" controls muted>
     <source src="/Images/Schmitt_trigger_oscillator1.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video> 
 
 0.45Hz
-<video width="100%" controls>
+<video width="100%" controls muted>
     <source src="/Images/Schmitt_trigger_oscillator2.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video> 
 
 0.15Hz
-<video width="100%" controls>
+<video width="100%" controls muted>
     <source src="/Images/Schmitt_trigger_oscillator3.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video> 
