@@ -15,9 +15,9 @@ The mantra of this project is baby steps.
 What's the bare minimum I can do and still incrementally learn something.
 
 Steps (not ordered)
-- [] Download STM32CubeIDE
-    - [] Run a basic project (blinky)
-- [] Read and make notes on the board's documentation
+- [x] Download STM32CubeIDE [notes on download here](/STM32/STM32CubeIDE)
+    - [x] Run a basic project (blinky) - The board came with blinky already installed
+- [] Read and make notes on the board's documentation [started here](/STM32/STM32F042K6T6)
 - [] Intergrate with other components
     - [] Flash an external LED
 - [] How to use a display

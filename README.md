@@ -6,6 +6,7 @@
 - [Markdown](./Markdown)
 - [Nand2Tetris](./Nand2Tetris)
 - [Projects](/Projects)
+- [STM32](/STM32)
 - [Tech Lancaster Logbook](./Tech_Lancaster)
 - [Terminal](./Terminal)
 - [Vim](./Vim)
