@@ -28,7 +28,7 @@ Incorrect
 </details>
 
 
-2. Which statement is correct assuming both bulbs are identical?
+2) Which statement is correct assuming both bulbs are identical?
 <img src="/Images/recap_question2.png" width="100%" >
 
 <details>
@@ -51,7 +51,7 @@ Incorrect
 Incorrect
 </details>
 
-3. Which statement is false? - this time the bulbs are not identical.
+3) Which statement is false? - this time the bulbs are not identical.
 <img src="/Images/recap_question3.png" width="100%" >
 
 <details>
@@ -70,11 +70,11 @@ Correct
 </details>
 
 <details>
-<summary></summary>
+<summary>The current leaving the battery will be the same as the current returning to the battery.</summary>
 Incorrect
 </details>
 
-4. What is the current through Bulb LA1?
+4) What is the current through Bulb LA1?
 <img src="/Images/recap_question4.png" width="100%" >
 
 <details>
@@ -97,7 +97,7 @@ Correct
 Incorrect
 </details>
 
-5. What is the voltage across LA2?
+5) What is the voltage across LA2?
 <img src="/Images/recap_question5.png" width="100%" >
 
 <details>
@@ -120,7 +120,7 @@ Correct
 Incorrect
 </details>
 
-6. What type of circuit is this?
+6) What type of circuit is this?
 <img src="/Images/recap_question6.png" width="100%" >
 
 <details>
@@ -143,7 +143,7 @@ Incorrect
 Incorrect
 </details>
 
-7. In the circuit above, what voltage will the voltmeter display?
+7) In the circuit above, what voltage will the voltmeter display?
 
 <details>
 <summary>6V</summary>
@@ -165,7 +165,7 @@ Incorrect
 Correct
 </details>
 
-8. What will the current be through R1 and R2?
+8) What will the current be through R1 and R2?
 <img src="/Images/recap_question8.png" width="100%" >
 
 <details>
@@ -188,7 +188,7 @@ Incorrect
 Incorrect
 </details>
 
-9. What is the name of this component? (VR1)
+9) What is the name of this component? (VR1)
 <img src="/Images/recap_question9.png" width="100%" >
 
 <details>
@@ -212,7 +212,7 @@ Incorrect
 </details>
 
 
-10 Which statement is true?
+10) Which statement is true?
 <img src="/Images/recap_question10.png" width="100%" >
 
 <details>
@@ -235,7 +235,7 @@ Incorrect
 Incorrect
 </details>
 
-11.  The combination of resistors and capacitors in a circuit (an RC network) introduces what useful element in a circuit? 
+11)  The combination of resistors and capacitors in a circuit (an RC network) introduces what useful element in a circuit? 
 
 <details>
 <summary>Charge</summary>
@@ -257,7 +257,7 @@ Incorrect
 Correct
 </details>
 
-12. What is the time constant (T)  of an RC circuit containing a 4.7K Ohm and a 10uF Capacitor?
+12) What is the time constant (T)  of an RC circuit containing a 4.7K Ohm and a 10uF Capacitor?
 
 <details>
 <summary>47 seconds</summary>
@@ -279,7 +279,7 @@ Incorrect
 Correct
 </details>
 
-13. In a 555 timer operating in astable mode, the external timing capacitor (C) charges and discharges between which two voltage levels?
+13) In a 555 timer operating in astable mode, the external timing capacitor (C) charges and discharges between which two voltage levels?
 
 <details>
 <summary>0V and the power supply voltage</summary>
@@ -301,7 +301,7 @@ Incorrect
 Incorrect
 </details>
 
-14. In the standard 555 astable circuit, the duty cycle is calculated as (R1 + R2) / R2. This means the duty cycle is:
+14) In the standard 555 astable circuit, the duty cycle is calculated as (R1 + R2) / R2. This means the duty cycle is:
 
 <details>
 <summary>Always less than 50%</summary>
@@ -323,7 +323,7 @@ Incorrect
 Incorrect
 </details>
 
-15. What is the primary function of both a MOSFET and a Bipolar Junction Transistor (BJT) in an electronic circuit?
+15) What is the primary function of both a MOSFET and a Bipolar Junction Transistor (BJT) in an electronic circuit?
 
 <details>
 <summary>Storing electrical charge like a capacitor</summary>
@@ -345,7 +345,7 @@ Incorrect
 Incorrect
 </details>
 
-16. A Bipolar Junction Transistor (BJT) is a current-controlled device, meaning a small current at the Base controls a larger current flow. What type of device is a MOSFET?
+16) A Bipolar Junction Transistor (BJT) is a current-controlled device, meaning a small current at the Base controls a larger current flow. What type of device is a MOSFET?
 
 <details>
 <summary>Current-Controlled Resistor</summary>
@@ -367,7 +367,7 @@ Correct
 Incorrect
 </details>
 
-17. What are the three essential terminals of a standard MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) used for circuit connection?  
+17) What are the three essential terminals of a standard MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) used for circuit connection?  
 
 <details>
 <summary>Base, Emitter, and Collector</summary>
@@ -389,7 +389,7 @@ Incorrect
 Correct
 </details>
 
-18. Why is it important to wear an anti-static wrist strap when working on electronic devices?
+18) Why is it important to wear an anti-static wrist strap when working on electronic devices?
 
 <details>
 <summary>To prevent short circuits damaging the components</summary>
@@ -411,7 +411,7 @@ Correct
 Incorrect
 </details>
 
-19. Which statement is false about PWM?
+19) Which statement is false about PWM?
 
 <details>
 <summary>Pulse Width Modulation is a method of producing a square wave with a varying duty cycle to efficiently</summary>

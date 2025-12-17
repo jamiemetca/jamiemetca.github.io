@@ -1,3 +1,5 @@
+[Back](./)
+
 25/11/2025
 
 # STM32CubeIDE
@@ -20,9 +22,14 @@ I added executable permissons to all.
 Run the script.
 I installed everything suggested.
 And agreed to the agreements
-
+ 
 ## Power on
-The board I bought came with example code to flash the LED.
+The board I bought came with example code to flash an onboard LED.
+There is also a jumper clip between D2 ([CN3](/STM pin 5) and GND (CN3 pin 4).
+Removing the jumper clip alters the speed at which the LED blinks.
+
+TODO: Add video of "out of the box code, with jumper clip on and off.
+
 The board comes with 
 
 ## First program
